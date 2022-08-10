@@ -1,0 +1,71 @@
+.text {
+display: flex;
+
+}
+p{
+    font-size: 18px;
+}
+
+.conteinerparents {
+    position: relative;
+   display: flex;
+    left: 0;
+    top: 0;}
+
+.text1 {
+    position: relative;
+    
+}
+.conteiner img {
+    position: absolute;
+    display: flex;
+  flex-direction: column;
+  
+}
+
+
+
+
+
+.NS {
+    top: 100px;
+    left: 420px;
+    z-index: 6;
+}
+
+.MW {
+    left: 600px;
+    z-index: 4;
+}
+
+.IY {
+    left: 450px;
+    z-index: 2;
+    top: 300px;
+}
+
+
+.BH {
+    z-index: 1;
+    left: 300px;
+}
+
+.text1 {
+    top: 800px;
+}
+
+.conteinerparents img:hover {
+    z-index: 10;
+}
+@media (max-width: 576px)  { 
+     p {
+        font-size: 25px;
+      }
+    }
+    @media (max-width: 576px) {
+        .conteinerparents {
+            left: -300px;
+        }
+
+    }
+
